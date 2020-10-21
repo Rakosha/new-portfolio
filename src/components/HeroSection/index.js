@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import video from 'https://s3-bucket-portfolio.s3.ca-central-1.amazonaws.com/video.mp4'
 import {Button} from "../ButtonElement"
 import {HeroLinksWrapper,HeroContainer,HeroBg,VideoBg, HeroBtnWrapper,HeroContent, ArrowForward, ArrowRight, HeroH1, HeroP} from "./HeroElemets"
 
@@ -24,7 +23,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={video} type='video/mp4'/>
+                <VideoBg autoPlay loop muted src="https://s3-bucket-portfolio.s3.ca-central-1.amazonaws.com/video.mp4" type='video/mp4'/>
             </HeroBg>
             <HeroContent>
                 <Fade left>
