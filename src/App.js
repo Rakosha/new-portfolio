@@ -9,6 +9,7 @@ function App() {
     ReactGa.initialize('G-Q5W99Q583N')
 
     //to report page view
+    //another comment
     ReactGa.pageview('/main')
   },[])
 
