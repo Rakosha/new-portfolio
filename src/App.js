@@ -6,7 +6,7 @@ import ReactGa from 'react-ga'
 function App() {
 
   useEffect(() =>{
-    ReactGa.initialize('G-Q5W99Q583N')
+    ReactGa.initialize('G-L7M52K0674')
 
     //to report page view
     //another comment
